@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Quote</title>
+	<link rel="stylesheet" href="c.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Add Motivational Quote</h1>
+        <form action="addquote" method="POST">
+            <div class="form-group">
+                <label for="quoteText">Quote:</label>
+                <input type="text" id="quoteText" name="quote" required>
+            </div>
+            <div class="form-group">
+                <button type="submit">Add Quote</button>
+                <button type="reset">Reset</button>
+                <a href="viewquotes" class="button">Back to Quotes</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

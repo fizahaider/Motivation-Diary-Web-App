@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="c.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Quote</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Edit Motivational Quote</h1>
+        <form action="editquote" method="GET">
+            <div class="form-group">
+                <label for="quoteText">Quote:</label>
+                <input type="text" id="quoteText" name="quote" required>
+            </div>
+            <input type="hidden" name="id">
+            <div class="form-group">
+                <button type="submit">Edit Quote</button>
+                <a href="viewquotes" class="button">Back to Quotes</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

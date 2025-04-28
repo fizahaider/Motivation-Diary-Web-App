@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	
+	
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Comment</title>
+	<link rel="stylesheet" href="c.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Edit Your Comment</h1>
+        <form action="editcomment" method="POST">
+            <div class="form-group">
+                <label for="comment">Comment:</label>
+                <textarea id="comment" name="comment" required></textarea>
+            </div>
+            <input type="hidden" name="commentId" value="">
+            <input type="hidden" name="username" value="">
+            <div class="form-group">
+                <button type="submit">Update Comment</button>
+                <a href="viewquotes" class="button">Back to Quotes</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
